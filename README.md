@@ -1,2 +1,2 @@
 # ReactJSFullCourse
-ReactJS full course with all aspects
+ReactJS full course with all aspects and modifications.
