@@ -18,9 +18,10 @@ export default App;
 /**
  * LEARNING PATH
  * 
- * REACT-APP-03-CSS-STYLES
+ * REACT-APP-04-CLICK-EVENTS
  * 
- *  > Each css for each component created.
- *  > Take resources from github class. "index.css"
+ *  > variable over function can be...
+ *    - {name}
+ *    - {() => name()}
  * 
  */
