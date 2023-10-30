@@ -28,11 +28,22 @@ const Body = () => {
         console.log(`Hola console...  + ${nameSended}`)
     }
 
+    /**
+     * Gives capacity to change name request.
+     * @returns Array with names
+     */
+    const handleClickName3 = (event) => {
+        console.log(event.target.innerText);
+    }
+
     return (
         <body>
-            <div>Lista de ... {handleNameChange()}</div>
+            <p onDoubleClick={handleClick}>
+                <div>Lista de ... {handleNameChange()}</div>
+            </p>
             <button onClick={handleClick}>Click test</button>
             <button onClick={() => handleClickName('Nacho')}>Click test</button>
+            <button onClick={(event) => handleClickName3(event)}>Click test</button>
         </body>
     )
 }
