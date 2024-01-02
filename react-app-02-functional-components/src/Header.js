@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
 
     /**
-     * Gives capacity to change name request.
+     * Gives capacity to change name request and give more detail.
      * @returns Array with names
      */
     const handleShopNameChange = () => {
