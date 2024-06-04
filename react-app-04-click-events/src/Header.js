@@ -7,7 +7,7 @@ const Header = () => {
      * @returns Array with names
      */
     const handleShopNameChange = () => {
-        const shopArray = ['Carniceria list', 'Pescaderia list', 'Cosmeticos list'];
+        const shopArray = ['Carniceria list', 'Test list', 'Cosmeticos list'];
         const i = Math.floor(Math.random() * 4);
 
         return shopArray[i];
